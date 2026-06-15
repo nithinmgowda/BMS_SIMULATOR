@@ -71,11 +71,9 @@ EOL_SOH_THRESHOLD        = 0.70         # End-of-life at 70% capacity remaining
 
 # Empirical degradation model coefficients
 # Capacity fade: Q(n) = Q0 * exp(-ALPHA * n^BETA)
-SOH_ALPHA                = 2.5e-4       # Degradation rate constant
-SOH_BETA                 = 0.50         # Degradation exponent (sub-linear fade)
-
-# Resistance growth: R(n) = R0 * (1 + GAMMA * n)
-SOH_GAMMA                = 5.0e-4       # Resistance growth rate per cycle
+SOH_ALPHA                = 1.5e-4
+SOH_BETA                 = 0.50
+SOH_GAMMA                = 5.0e-5
 
 # -----------------------------------------------------------------------------
 # CELL BALANCING

@@ -55,16 +55,7 @@ Multi-level fault system (INFO → WARNING → CRITICAL → EMERGENCY) covering:
 
 ---
 
-## Project Structure
 
-```
-bms-simulator/
-├── gui/
-│   └── dashboard.py       # PyQt5 dashboard — all panels, controls, header
-├── sim_loop.py            # Simulation engine and state management
-├── config.py              # Pack configuration constants
-├── requirements.txt
-└── README.md
 ```
 
 ---
@@ -81,7 +72,7 @@ bms-simulator/
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/bms-simulator.git
+git clone https://github.com/nithinmgowda/BMS_SIMULATOR.git
 cd bms-simulator
 pip install -r requirements.txt
 ```
@@ -156,8 +147,4 @@ MIT License — see `LICENSE` for details.
 
 ---
 
-## Author
 
-**Your Name**  
-Electrical Engineering Student  
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
