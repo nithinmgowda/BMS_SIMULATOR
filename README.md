@@ -52,25 +52,8 @@ Multi-level fault system (INFO → WARNING → CRITICAL → EMERGENCY) covering:
 - **Simulation controls** — profile selector, balancing mode toggle, pause/resume, speed up to 50×
 
 ---
-### Project Structure
-bms_simulator/
-├── core/
-│   ├── cell_model.py
-│   ├── pack_model.py
-│   ├── soc_estimator.py
-│   ├── soh_estimator.py
-│   ├── balancer.py
-│   └── fault_detector.py
-├── data/
-│   ├── ocv_soc_table.py
-│   └── load_profiles.py
-├── gui/
-│   └── dashboard.py
-└── main.py
 
-```
 
----
 
 ## Getting Started
 
