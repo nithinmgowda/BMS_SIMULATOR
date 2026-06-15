@@ -4,9 +4,7 @@ A real-time Battery Management System simulator for an 8S8P NMC lithium-ion pack
 
 ---
 
-## Screenshot
 
-> *(Add a screenshot of your dashboard here)*
 
 ---
 
